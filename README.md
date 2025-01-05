@@ -1,5 +1,6 @@
 # Backup_automatizado
-Este projeto foi criado para automatizar backup, direcionar os snapshots para camadas de armazenamentos mais baratos. 
+
+- Projeto de uma arquitetura Orientada em resposta a eventos, onde se utiliza o Aws Backup para armazenar backups, EventBridge para monitorar os eventos, SNS integrado ao EventBridge, onde ele irá receber os eventos e irá direcionar para o E-mail 
 
 #Descrição do projeto
 - Criei uma instancia EC2 para que pudesse ter um cenário real e utilizar EBS para criar o plano de Backup 
