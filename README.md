@@ -2,7 +2,7 @@
 
 - Projeto de uma arquitetura Orientada em resposta a eventos, onde se utiliza o Aws Backup para armazenar backups, EventBridge para monitorar os eventos, SNS integrado ao EventBridge, onde ele irá receber os eventos e irá direcionar para o E-mail 
 
-#Descrição do projeto
+# Descrição do projeto
 - Criei uma instancia EC2 para que pudesse ter um cenário real e utilizar EBS para criar o plano de Backup 
 - Esse projeto foi criado para automatizar a criação de backup de volumes EBS, RDS e podendo utlizar em outros recursos
 - Utilizei o AWS Backup para ter um ambiente centralizado e aonde posso ter total visualização e controle dos meus backups
